@@ -144,7 +144,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="FindMaxValue.h" />
     <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="retainVaildNode.h" />
     <ClInclude Include="Tools.h" />
   </ItemGroup>
   <ItemGroup>

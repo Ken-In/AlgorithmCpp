@@ -1,6 +1,9 @@
 #pragma once
 
 #include <vector>
+#include <map>
+#include <unordered_map>
+
 #include <iostream>
 #include <ctime>
 #include <algorithm>
@@ -9,6 +12,7 @@
 
 void Swap(std::vector<int>& arr, int index1, int index2)//两数不能相等
 {
+	if (arr[index1] == arr[index2]) return;
 	arr[index1] = arr[index1] ^ arr[index2];// 1 = 1 ^ 2 ,			2 = 2
 	arr[index2] = arr[index1] ^ arr[index2];// 1 = 1 ^ 2 ,			2 = 2 ^ 1 ^ 2 = 1
 	arr[index1] = arr[index1] ^ arr[index2];// 1 = 1 ^ 2 ^ 1 = 2 ,	2 = 1

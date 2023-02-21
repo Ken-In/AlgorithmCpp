@@ -19,6 +19,9 @@
     <Filter Include="头文件\排序Sort">
       <UniqueIdentifier>{87270869-f08c-45f3-9866-ca5d64f671b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\树Tree">
+      <UniqueIdentifier>{e3035f15-65ed-4642-9730-52be29155e04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tools.h">
@@ -31,6 +34,18 @@
       <Filter>头文件\位运算Bit_Operation</Filter>
     </ClInclude>
     <ClInclude Include="InsertionSort.h">
+      <Filter>头文件\排序Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMaxValue.h">
+      <Filter>头文件\排序Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="retainVaildNode.h">
+      <Filter>头文件\树Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件\树Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
       <Filter>头文件\排序Sort</Filter>
     </ClInclude>
   </ItemGroup>
